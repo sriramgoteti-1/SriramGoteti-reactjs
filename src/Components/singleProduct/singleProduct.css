@@ -1,0 +1,62 @@
+.singleProduct {
+    flex: 9;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .singleProductWrapper {
+    padding: 20px;
+    padding-right: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .singleProductImg {
+    width: 25%;
+    height: 300px;
+    margin-left: 420px;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  
+  .singleProductName {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", sans-serif;
+  }
+  
+  .singleProductInfo {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  }
+  
+  .singleProductPrice{
+    margin-Right: 5px;
+  }
+  
+  .singleProductDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .singleProductDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .deleteButton {
+    position: absolute;
+    margin-left: 520px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
